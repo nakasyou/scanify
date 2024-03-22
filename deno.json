@@ -1,5 +1,5 @@
 {
-  "name": "@na/scanify",
+  "name": "@ns/scanify",
   "version": "0.1.0",
   "exports": "./mod.ts",
   "tasks": {
