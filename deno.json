@@ -16,6 +16,10 @@
     "ffi"
   ],
   "publish": {
-    "exclude": ["!pkg"]
+    "exclude": [
+      "!pkg",
+      "src",
+      "example"
+    ]
   }
 }
