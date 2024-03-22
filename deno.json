@@ -1,0 +1,18 @@
+{
+  "name": "@na/scanify",
+  "version": "0.1.0",
+  "exports": "./mod.ts",
+  "tasks": {
+    "dev": "deno task build:dev && deno run -A example/main.ts",
+    "build:dev": "wasm-pack build --target web",
+    "build": "wasm-pack build --target web --release"
+  },
+  "fmt": {
+    "indentWidth": 2,
+    "semiColons": false,
+    "singleQuote": true
+  },
+  "unstable": [
+    "ffi"
+  ]
+}
