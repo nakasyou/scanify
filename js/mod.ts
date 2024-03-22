@@ -6,7 +6,13 @@
 // @deno-types="../pkg/wasm.d.ts"
 import * as wasm from '../pkg/wasm.js'
 
-await wasm.default()
+/**
+ * Initialize WASM
+ * @public
+ */
+export const initialize = async (): Promise<void> => {
+  await wasm.default()
+}
 
 interface ImageInit {
   wasmImage: wasm.Image
