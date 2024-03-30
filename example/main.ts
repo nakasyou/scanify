@@ -1,4 +1,3 @@
-import '../js/mod.ts'
 import * as imagescript from 'https://deno.land/x/imagescript@1.2.17/mod.ts'
 import { fromImageData } from '../mod.ts'
 
