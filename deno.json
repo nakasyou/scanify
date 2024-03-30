@@ -1,6 +1,6 @@
 {
   "name": "@ns/scanify",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "exports": "./mod.ts",
   "tasks": {
     "dev": "deno task build:dev && deno run -A example/main.ts",
@@ -16,6 +16,10 @@
     "ffi"
   ],
   "publish": {
-    "exclude": ["!pkg"]
+    "exclude": [
+      "!pkg",
+      "src",
+      "example"
+    ]
   }
 }
